@@ -17,6 +17,7 @@ Portanto, vamos dar uma olhada nisso no contexto do ASP.NET Core. As identidades
 
 public async Task<IActionResult> Login(string returnUrl = null)
 {
+    
     const string Issuer = "https://gov.uk";
 
     var claims = new List<Claim> {
